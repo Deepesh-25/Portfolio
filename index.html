@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Deepesh Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                Deepesh <span>Agare</span>
+            </div>
+            <div class="links">
+                <div class="link"><a href="#main-container">Home</a></div>
+                <div class="link"><a href="#about-container">About</a></div>
+                <div class="link"><a href="#skills-container">Skills</a></div>
+                <div class="link"><a href="#services-container">Services</a></div>
+                <div class="link"><a href="#contact-container">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#main-container">Home</a>
+                <a href="#about-container">About</a>
+                <a href="#skills-container">Skills</a>
+                <a href="#services-container">Services</a>
+                <a href="#contact-container">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container" id="main-container">
+            <div class="image">
+                <img src="b02cddfcd2c1102df52f22acd983b19a.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1>Hey I,m <span>Deepesh</span></h1>
+                <div class="typewriter">I,m a <span class="typing-text"></span><span class="cursor"></span></div>
+                <p>I'm a <b style="color: blue;">Frontend Magician</b> with a passion for turning ideas into <b>scalable, efficient, and user-friendly</b> solutions.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Deepesh-25"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/share/1AJnwSW37n/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/DeepeshAgare?t=Wm8xtw84h5nfpETlxY33Cw&s=08"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/deepesh-agare-814782263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btn">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+        <div class="about-container" id="about-container">
+            <h1>About Me</h1>
+            <p>Hi, I’m <b>Deepesh Agare</b>.
+                I’m a passionate Frontend Developer with a love for crafting fast, accessible, and pixel-perfect web experiences. I specialize in turning design mockups into interactive, responsive, and user-friendly applications that people love to use.</p>
+            <p>
+                I love the <b>instant visual feedback</b> of frontend development—seeing my code come to life in the browser is incredibly rewarding. Plus, I enjoy the challenge of making complex apps feel <b>simple and delightful</b> for users.
+            </p>
+            <div class="timeline">
+                <div class="timeline-row">
+                    <div class="timeline-column">
+                        <h2 class="title">Education</h2>
+
+                        <div class="timeline-box">
+                            <div class="timeline-content">
+                                <div class="t-content">
+                                    <div class="year"><i class="bx bxs-calendar"></i>2019-2020</div>
+                                    <h3>High School Degree</h3>
+                                    <p>Abhinav Vidya Mandir High School</p>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="t-content">
+                                    <div class="year"><i class="bx bxs-calendar"></i>2020-2023</div>
+                                    <h3>Diploma in Information Technology</h3>
+                                    <p>Pravin Patil College Of Diploma Engineering And Technology</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-container" id="skills-container">
+            <h1 class="sub-title">
+                <span>Skills</span>
+            </h1>
+            <div class="skills-box">
+                <div class="container1" id="skills">
+                    <h1 class="heading">Technical Skills</h1>
+                    <div class="technical-bars">
+                        <div class="bar">
+                            <div class="info">
+                                <i class="bx bxl-html5"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <i class="bx bxl-css3"></i>
+                                <span>CSS</span>
+                            </div>
+                            <div class="progress-line css">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <i class="bx bxl-javascript"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="progress-line js">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Services Section -->
+        <div class="services-container" id="services-container">
+            <h1 class="sub-title">
+                <span>My Services</span>
+            </h1>
+            <div class="services-list">
+                <div class="service">
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+                <div class="service">
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+                <div class="service">
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                    <a href="#" class="learn-more">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-container" id="contact-container">
+            <h1 class="sub-title">
+                <span>Contact Me</span>
+            </h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-box">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Mumbai, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>deepesh@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+91 9876543210</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Website</h3>
+                            <p>www.deepeshagare.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="input-group">
+                            <input type="text" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        &copy;2025 Deepesh Agare, All Rights Reserved. 
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
